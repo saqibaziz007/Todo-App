@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="todo-app">
+            <h1>Todo List</h1>
+            <form class="search">
+                <input type="text" name="search" placeholder="Search Todos" />
+            </form>
+
+            <div class="lists">
+                <ul class="uList todos">
+                    <li class="list">
+                        <span>Read Books</span>
+                        <div>
+                            <i class="fas fa-check complete"></i>
+                            <i class="fas fa-edit edit"></i>
+                            <i class="far fa-trash-alt delete"></i>
+                        </div>
+                    </li>
+                    <li class="list">
+                        <span>Workout</span>
+                        <div>
+                            <i class="fas fa-check complete"></i>
+                            <i class="fas fa-edit edit"></i>
+                            <i class="far fa-trash-alt delete"></i>
+                        </div>
+                    </li>
+                    <li class="list">
+                        <span>Learn JS</span>
+                        <div>
+                            <i class="fas fa-check complete"></i>
+                            <i class="fas fa-edit edit"></i>
+                            <i class="far fa-trash-alt delete"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="add">
+                <p>Add a new Todo...</p>
+                <input type="text" id="add" name="add" placeholder="Enter todo..." />
+                <button type="submit" class="btn custom-btn btn-6">Add Todo</button>
+            </form>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
